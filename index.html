@@ -35,10 +35,14 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
 
+    <!-- Typeit -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    
     <!-- Javascript -->
     <script type="module" src="src/main.js" defer></script>
     <script type="module" src="src/projects.js" defer></script>
     <script type="module" src="src/active_menu.js" defer></script>
+    <script type="module" src="src/type.js" defer></script>
   </head>
   <body>
     <!-- Header -->
@@ -86,48 +90,50 @@
       </section>
 
       <!-- About -->
-      <section id="about" class="section max-container">
-        <h2 class="title">About me</h2>
-        <p class="description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          vitae aut natus ut. Nostrum quae error recusandae beatae expedita,
-          incidunt repellat tempore saepe distinctio quas delectus aperiam ab?
-          Quia, quaerat!
-        </p>
-        <ul class="majors">
-          <li class="major">
-            <i class="fa-brands fa-html5 major__icon"></i>
-            <p class="major__title">Front-end</p>
-            <p>HTML,CSS,JavaScript,TypeScript, React, Vue, Web APIs</p>
-          </li>
-          <li class="major">
-            <i class="fa-solid fa-mobile major__icon"></i>
-            <p class="major__title">Mobile</p>
-            <p>Android, iOS, React Natives, Flutter, Java, Swift, Kotlin</p>
-          </li>
-          <li class="major">
-            <i class="fa-solid fa-server major__icon"></i>
-            <p class="major__title">Back-end</p>
-            <p>Java, JavaScript, Go, NodeJs, Rest APIs, GraphQL</p>
-          </li>
-        </ul>
+      <section id="about" class="section">
+        <div class="max-container">
+          <h2 class="title">About me</h2>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            vitae aut natus ut. Nostrum quae error recusandae beatae expedita,
+            incidunt repellat tempore saepe distinctio quas delectus aperiam ab?
+            Quia, quaerat!
+          </p>
+          <ul class="majors">
+            <li class="major">
+              <i class="fa-brands fa-html5 major__icon"></i>
+              <p class="major__title">Front-end</p>
+              <p>HTML,CSS,JavaScript,TypeScript, React, Vue, Web APIs</p>
+            </li>
+            <li class="major">
+              <i class="fa-solid fa-mobile major__icon"></i>
+              <p class="major__title">Mobile</p>
+              <p>Android, iOS, React Natives, Flutter, Java, Swift, Kotlin</p>
+            </li>
+            <li class="major">
+              <i class="fa-solid fa-server major__icon"></i>
+              <p class="major__title">Back-end</p>
+              <p>Java, JavaScript, Go, NodeJs, Rest APIs, GraphQL</p>
+            </li>
+          </ul>
 
-        <ul class="jobs">
-          <li class="job">
-            <img src="images/jobs/google.png" alt="google logo" />
-            <div>
-              <p class="job__name">Google as Senior Software Engineer</p>
-              <p class="job__period">2019 Oct - Until now</p>
-            </div>
-          </li>
-          <li class="job">
-            <img src="images/jobs/samsung.png" alt="samsung logo" />
-            <div>
-              <p class="job__name">Samsung as Software Engineer</p>
-              <p class="job__period">2014 Sept - 2019 Oct</p>
-            </div>
-          </li>
-        </ul>
+          <ul class="jobs">
+            <li class="job">
+              <img src="images/jobs/google.png" alt="google logo" />
+              <div>
+                <p class="job__name">Google as Senior Software Engineer</p>
+                <p class="job__period">2019 Oct - Until now</p>
+              </div>
+            </li>
+            <li class="job">
+              <img src="images/jobs/samsung.png" alt="samsung logo" />
+              <div>
+                <p class="job__name">Samsung as Software Engineer</p>
+                <p class="job__period">2014 Sept - 2019 Oct</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Skills -->
@@ -348,7 +354,8 @@
       </section>
 
       <!--Testimonial  -->
-      <section id="testimonial" class="section max-container">
+      <section id="testimonial" class="section">
+        <div class="max-container">
         <h2 class="title">Testimonial</h2>
         <p class="description">See what they say about me</p>
         <ul class="testimonials">
@@ -364,8 +371,8 @@
                 architecto itaque eligendi iste suscipit explicabo laudantium
                 tempora vitae non veniam aperiam.
               </p>
-              <p class="testimonial__bubble__name">
-                <a href="#">James Kim</a> /Google
+              <p>
+                <a class="testimonial__bubble__name" href="#">James Kim</a> /Google
               </p>
             </div>
           </li>
@@ -381,8 +388,8 @@
                 architecto itaque eligendi iste suscipit explicabo laudantium
                 tempora vitae non veniam aperiam.
               </p>
-              <p class="testimonial__bubble__name">
-                <a href="#">Anna Jin</a> /Sa msung
+              <p>
+                <a class="testimonial__bubble__name" href="#">Anna Jin</a> /Samsung
               </p>
             </div>
           </li>
@@ -399,12 +406,13 @@
                 architecto itaque eligendi iste suscipit explicabo laudantium
                 tempora vitae non veniam aperiam.
               </p>
-              <p class="testimonial__bubble__name">
-                <a href="#">Anna Jin</a> /Samsung
+              <p>
+                <a class="testimonial__bubble__name" href="#">Anna Jin</a> /Samsung
               </p>
             </div>
           </li>
         </ul>
+      </div>
       </section>
 
       <!-- Arrow up -->
