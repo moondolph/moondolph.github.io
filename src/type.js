@@ -2,7 +2,7 @@
 
 new TypeIt(".home__title--strong",{
   loop:true,
-  speed:30,
+  speed:50,
 })  //world-class Coder| 
 .move(-17)  //|world-class Coder
 .type("Amazing ") //Amazing |world-class Coder
