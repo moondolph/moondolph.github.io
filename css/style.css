@@ -361,6 +361,7 @@ button:focus {
 
 .skills__tools {
   padding: 1rem;
+  background-color: var(--color-accent-variant);
 }
 
 .skills__etc {
